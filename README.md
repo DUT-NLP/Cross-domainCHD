@@ -7,4 +7,6 @@
 ##算法描述
 特征迁移与实例迁移结合算法具体描述如下图所示<br>
 ![Method](https://github.com/DUT-NLP/Cross-domainCHd/blob/master/method.png)<br>
-采用了经典的实例迁移学习方法 TrAdaBoost（简称TrA）和特征迁移学习方法 FruDA（简称 Fru）相结合的方法来进行特征和实例迁移
+采用了经典的实例迁移学习方法 TrAdaBoost（简称TrA）和特征迁移学习方法 FruDA（简称 Fru）相结合的方法来进行特征和实例迁移<br>
+##参考文献
+Zhou H, Yang H, Chen L, et al. Combining Feature-Based and Instance-Based Transfer Learning Approaches for Cross-Domain Hedge Detection with Multiple Sources[M]// Social Media Processing. Springer Singapore, 2015.<br>
