@@ -4,3 +4,7 @@
 <br>测试过程，分别采用两个模型识别目标领域测试语料中的模糊限制语，得到各自的识别结模糊限制信息检测研究果；再融合两个识别结果，得到最终的跨领域中文模糊限制语识别结果。
 ![Framework](https://github.com/DUT-NLP/Cross-domainCHd/blob/master/framework.png)<br>
 图1.词向量与迁移学习结合方法流程
+##算法描述
+特征迁移与实例迁移结合算法具体描述如下图所示<br>
+![Method](https://github.com/DUT-NLP/Cross-domainCHd/blob/master/method.png)<br>
+采用了经典的实例迁移学习方法 TrAdaBoost（简称TrA）和特征迁移学习方法 FruDA（简称 Fru）相结合的方法来进行特征和实例迁移
