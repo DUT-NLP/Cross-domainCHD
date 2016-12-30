@@ -8,8 +8,10 @@
 特征迁移与实例迁移结合算法具体描述如下图所示<br>
 ![Method](https://github.com/DUT-NLP/Cross-domainCHd/blob/master/method.png)<br>
 采用了经典的实例迁移学习方法 TrAdaBoost（简称TrA）和特征迁移学习方法 FruDA（简称 Fru）相结合的方法来进行特征和实例迁移<br>
+## 数据集  
+我们提供了CoNLL2010任务相关的模糊限制语识别维基百科领域的数据集和BioScope的生物医学领域的模糊限制于识别的数据集。
 ## 代码
-我们提供了Fru和TrA的C++实现代码
+我们提供了Fru和TrA以及TPTSVM的C++实现代码，详细的代码说明请查阅code文件夹下使用说明的PDF文件。
 ## 参考文献
 Zhou H, Yang H, Chen L, et al. Combining Feature-Based and Instance-Based Transfer Learning Approaches for Cross-Domain Hedge Detection with Multiple Sources[M]// Social Media Processing. Springer Singapore, 2015.<br>
 杨欢. 跨领域中文模糊限制语识别研究[D]. 大连:大连理工大学,2015.
